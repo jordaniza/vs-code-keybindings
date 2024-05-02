@@ -1,4 +1,5 @@
 {
+  "typescript.preferGoToSourceDefinition": true,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "peacock.affectStatusAndTitleBorders": true,
@@ -140,14 +141,18 @@
     {
       "before": ["<leader>", "e"],
       "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "i"],
+      "commands": ["editor.action.showHover"]
     }
   ],
+  "vim.whichwrap": "h,l",
   "vim.useSystemClipboard": true,
   "github.copilot.advanced": {},
   "editor.lineNumbers": "relative",
   "window.zoomLevel": -1,
   "vim.leader": "<Space>",
-  "workbench.colorTheme": "Copilot Theme - Higher Contrast",
   "solidity.telemetry": true,
   "glassit-linux.opacity": 90,
   "window.menuBarVisibility": "hidden",
@@ -156,5 +161,8 @@
       "command": "multiCommand.openSidebarAndFocus",
       "sequence": ["workbench.action.toggleSidebarVisibility", "workbench.action.focusSideBar"]
     }
-  ]
+  ],
+  "workbench.colorTheme": "High Contrast Theme",
+  "glassit.alpha": 245,
+  "glassit.step": 10
 }
