@@ -128,6 +128,7 @@
     "command": "workbench.action.navigateLeft",
     "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
   },
+
   {
     "key": "ctrl+l",
     "command": "workbench.action.navigateRight",
