@@ -183,6 +183,16 @@
     "when": "sideBarVisible && !suggestWidgetVisible"
   },
   {
+    "key": "ctrl+n",
+    "command": "workbench.action.quickOpenNavigateNext",
+    "when": "inQuickOpen && inFilesPicker"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpenNavigatePrevious",
+    "when": "inQuickOpen && inFilesPicker"
+  },
+  {
     "key": "a",
     "command": "explorer.newFile",
     "when": "explorerViewletFocus && !inputFocus"
